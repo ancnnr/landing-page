@@ -1,3 +1,132 @@
-* {
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .footer, .banner{
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header, .footer, .banner, .content1, .content2, .content3 {
+    padding-left: 25%;
+    padding-right:25%;
+}
+
+
+.header {
+    font-size: 24px;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul {
+    display: flex;
+    gap: 20px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.banner-left {
+    width:400px;
+    flex-shrink: 0;
+}
+
+.banner-left h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.banner-left h1, .banner-left p, .banner-left button {
+    margin: 5px;
+}
+
+.banner-left p, .header a, .footer{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 100;
+}
+
+.banner-right {
+    width: 400px;
+    height: 200px;
+    flex-shrink: 0;
+    background-color: grey;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.header a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.content1 h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+p {
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.content2 {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1F2937;
+}
+
+.call-to-action, .signup {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.cta-left{
+    font-size: 24px;
+}
+
+.call-to-action p {
+    color: #F9FAF8;
+}
+
+.signup {
+    border-radius: 10px;
+    padding: 5px 20px 5px 20px;
+}
+
+button {
     
 }
