@@ -74,6 +74,12 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 10px;
+    
+}
+
+.placeholder:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgb(2 173 164);
 }
 
 .logo {
